@@ -3,7 +3,7 @@ import Header from '../header/header';
 import Intro from '../intro/intro'
 import Features from '../features/features';
 import ProductSlider from '../product-slider/product-slider';
-// import Giftset from '../giftset/giftset';
+import Giftset from '../giftset/giftset';
 import ComboSlider from '../combo-slider/combo-slider';
 
 
@@ -17,6 +17,7 @@ class App extends Component {
           <Intro/>
           <Features/>
           <ProductSlider/>
+          <Giftset/>
           <ComboSlider/>
         </div>
     );
