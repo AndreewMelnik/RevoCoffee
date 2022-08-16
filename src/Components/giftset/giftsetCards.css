@@ -1,4 +1,4 @@
-.giftset1{
+.giftset{
     position: relative;
     margin: 0 auto;
     max-width: 1262px;
@@ -22,39 +22,26 @@
     z-index: -2;
     border: 0.5px solid #b9b9b9;
  }
- .tab-triggers {
-    order: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: #f6f8fc;
- }
- .tabs-triggers__item {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 34px;
-    color: #415167;
-    text-decoration: none;
-    padding: 0px 25px;
- }
- .tabs-triggers__item_active {
-    background-color: #fff;
-    border: 0.5px solid #b9b9b9;
-    border-left: none;
-    transition: all 0.5;
- }
+
  .tabs-content {
  }
+.giftset__bg {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 91%;
+   height: 100%;
+   background-color: #fff;
+   z-index: -2;
+}
+
+
  .tabs-content__item {
     display: flex;
     position: relative;
+    width: 1138px;
+    height: 463px;
  }
  
  .tabs-content__item_active {
@@ -67,21 +54,44 @@
     flex-direction: column;
     justify-content: center;
     padding: 40px 60px 40px 40px;
+    min-width: 530px;
  }
  .giftset__price {
-    margin-bottom: 12px;
- }
- .giftset__name {
-    margin-bottom: 12px;
- }
- .giftset__description {
-    margin-bottom: 24px;
- }
+   font-family: "Nunito";
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 24px;
+   color: #c7a17a;
+   margin-bottom: 8px;
+}
+
+.giftset__name {
+   font-family: "Nunito";
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   color: #232c38;
+}
+
+.giftset__description {
+   font-family: "Nunito";
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 22px;
+   margin-bottom: 32px;
+   color: #151d28;
+}
  .giftset__info {
     display: flex;
     justify-content: space-between;
     margin-bottom: 46px;
     padding: 0px 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #415167;
  }
  .giftset__info_1,
  .giftset__info_2 {
@@ -99,19 +109,21 @@
  }
  .info__title,
  .info__subtitle {
-    font-family: "Nunito";
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 22px;
-    color: #415167;
+   font-family: 'Nunito';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 22px;
+   color: #415167;
  }
+
  .giftset__link {
+    padding: 0px 35px;
     display: flex;
     justify-content: space-between;
+    max-width: 460px;
  }
- .giftset__link {
-    padding: 0px 20px;
- }
+
  .buy {
     border: none;
     width: 135px;
