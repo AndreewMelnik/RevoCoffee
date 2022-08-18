@@ -2,6 +2,8 @@ import "./giftsetCards.css"
 import Coffee from "../../img/svg/coffee_beans.svg";
 import Mountain from "../../img/svg/mountain.svg";
 import Giftset1 from "../../img/png/giftset.png";
+import Giftset2 from "../../img/png/223.png";
+import Giftset3 from "../../img/png/443.png";
 import { Component } from 'react'
 import React, { useState } from 'react';
 import {
@@ -66,9 +68,9 @@ export default function App() {
  const giftsetData= [
      {name: "Giftset Cà phê phin Việt Nam", price: "$ 20.00", src:Giftset1, beans: "Fine robusta brend", height: "700-800m ",id: 1, 
      description: "A great gift for coffee connoisseurs. Coffee beans are carefully selected by Revo, roasted according to the technology and know-how learned from famous artisans, along with the love and passion of coffee makers. … create pure coffee just for you."},
-     {name: "Giftset Một món quà cho các gia đình ", price: "$ 23.00", src:Giftset1, beans: "Fine robusta brend", height: "700 - 800m ", id: 2, 
+     {name: "Giftset Một món quà cho các gia đình ", price: "$ 23.00", src:Giftset2, beans: "Fine robusta brend", height: "700 - 800m ", id: 2, 
      description: "A great gift for coffee connoisseurs. Coffee beans are carefully selected by Revo, roasted according to the technology and know-how learned from famous artisans, along with the love and passion of coffee makers. … create pure coffee just for you."},
-     {name: "Giftset Bạn bè muốn uống cà phê", price: "$ 25.00",src:Giftset1,beans: "Fine robusta brend", height: "700 - 800m ", id: 3, 
+     {name: "Giftset Bạn bè muốn uống cà phê", price: "$ 25.00",src:Giftset3,beans: "Fine robusta brend", height: "700 - 800m ", id: 3, 
      description: "A great gift for coffee connoisseurs. Coffee beans are carefully selected by Revo, roasted according to the technology and know-how learned from famous artisans, along with the love and passion of coffee makers. … create pure coffee just for you.."},
  ]
  
