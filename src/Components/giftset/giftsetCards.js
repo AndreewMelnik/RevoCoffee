@@ -64,11 +64,11 @@ export default function App() {
 }
 
  const giftsetData= [
-     {name: "GIFTSET “CÀ PHÊ PHIN VIỆT NAM”", price: "$ 20.00", src:Giftset1, beans: "Fine robusta brend", height: "700-800m ",id: 1, 
+     {name: "Giftset Cà phê phin Việt Nam", price: "$ 20.00", src:Giftset1, beans: "Fine robusta brend", height: "700-800m ",id: 1, 
      description: "A great gift for coffee connoisseurs. Coffee beans are carefully selected by Revo, roasted according to the technology and know-how learned from famous artisans, along with the love and passion of coffee makers. … create pure coffee just for you."},
-     {name: "GIFTSET “TỐ NỮ", price: "$ 23.00", src:Giftset1, beans: "Fine robusta brend", height: "700 - 800m ", id: 2, 
+     {name: "Giftset Một món quà cho các gia đình ", price: "$ 23.00", src:Giftset1, beans: "Fine robusta brend", height: "700 - 800m ", id: 2, 
      description: "A great gift for coffee connoisseurs. Coffee beans are carefully selected by Revo, roasted according to the technology and know-how learned from famous artisans, along with the love and passion of coffee makers. … create pure coffee just for you."},
-     {name: "MODERN VIETNAMESE COFFEE BLEND BOX", price: "$ 25.00",src:Giftset1,beans: "Fine robusta brend", height: "700 - 800m ", id: 3, 
+     {name: "Giftset Bạn bè muốn uống cà phê", price: "$ 25.00",src:Giftset1,beans: "Fine robusta brend", height: "700 - 800m ", id: 3, 
      description: "A great gift for coffee connoisseurs. Coffee beans are carefully selected by Revo, roasted according to the technology and know-how learned from famous artisans, along with the love and passion of coffee makers. … create pure coffee just for you.."},
  ]
  
@@ -82,22 +82,20 @@ export default function App() {
                          <img src={src} alt={name}/>
                          <div className="giftset__content">
                           <div className="giftset__bg"></div>
-                            <div className="giftset__price price">{price}</div>
-                            <div className="giftset__name name">{name}</div>
-                            <div className="giftset__description description">{description}</div>
+                            <div className="giftset__price">{price}</div>
+                            <div className="giftset__name">{name}</div>
+                            <div className="giftset__description">{description}</div>
                             <div className="giftset__info">
-                               <div className="giftset__info">
                                   <img src={Coffee} alt=""/>
                                   <div className="info__text">
                                      <div className="info__title">Beans</div>
                                      <div className="info__subtitle">{beans}</div>
                                   </div>
-                               </div>
                                <div className="giftset__info">
                                   <img src={Mountain} alt=""/>
                                   <div className="info__text">
                                      <div className="info__title">Height</div>
-                                     <div claclassNamess="info__subtitle">{height}</div>
+                                     <div className="info__subtitle">{height}</div>
                                   </div>
                                </div>
                             </div>

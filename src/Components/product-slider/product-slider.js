@@ -22,7 +22,7 @@ export default class MultipleRows extends Component {
       // adaptiveHeight:true,
       slidesToShow: 2,
       speed: 600,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 2500,
       rows: 2,
       slidesPerRow: 1,
       arrows:true,

@@ -14,6 +14,8 @@
     padding: 86px 0px 125px 20px;
     margin-bottom: 100px;
     position: relative;
+    text-align: center;
+    color: #415167;
  }
  .giftset::after {
     content: "";
@@ -26,88 +28,19 @@
     z-index: -3;
  }
  
- @media (max-width: 1400px) {
-    .giftset::after {
-       width: 80%;
-    }
-    .giftset__tab {
-       margin-right: 50px;
-    }
+ .section__subtitle{
+   padding-top: 2px;
+   margin-left: 17px;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
  }
- 
- @media (max-width: 1279.9px) {
-    .giftset__content {
-       padding: 40px 100px;
-    }
-    .giftset__info {
-       justify-content: space-around;
-       text-align: left;
-    }
-    .giftset__info_1 {
-    }
-    .tabs-content__item--active > img {
-       width: 500px;
-       height: auto;
-    }
-    .tabs-content__item--active {
-       flex-direction: column;
-       align-items: center;
-    }
-    .giftset__tab::after {
-       width: 100%;
-    }
-    .giftset__content {
-       text-align: center;
-    }
-    .giftset__link {
-       justify-content: center;
-    }
-    .buy  {
-       margin-right: 80px;
-    }
-    .desc  {
-        margin-right: 80px;
-     }
- }
- @media (max-width: 999px) {
-    .giftset {
-       padding-left: 0px;
-    }
-    .giftset__tab {
-       flex-direction: column-reverse;
-       margin: 0 auto;
-    }
-    .tab-triggers {
-       flex-direction: row;
-    }
-    .tabs-triggers__item {
-       justify-content: center;
-       padding: 15px;
-       border: 0.5px solid #b9b9b9;
-       border-bottom: none;
-    }
-    .giftset::after {
-       width: 100%;
-    }
- }
- @media (max-width: 600px) {
-    .tabs-content__item--active > img {
-       margin-top: 30px;
-       width: 300px;
-       height: auto;
-    }
- }
- @media (max-width: 450px) {
-    .tabs-content__item--active > img {
-       margin-top: 30px;
-       width: 200px;
-       height: auto;
-    }
- }
- @media (max-width: 380px) {
-    .tabs-content__item--active > img {
-       margin-top: 30px;
-       width: 150px;
-       height: auto;
-    }
+ .section__title{
+   padding-top: 5px;
+   margin-left: 16px;
+   font-family: Montserrat;
+   font-weight: 900;
+   font-size: 30px;
+   line-height: 34px;
+   margin: 0 0 64px 2px;
  }

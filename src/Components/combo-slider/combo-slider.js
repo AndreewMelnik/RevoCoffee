@@ -60,7 +60,7 @@ const ComboText = (props) => {
     return(
         <div className="product__text">
         <h2 className="product__subtitle subtitle">Choose Your Favorite</h2>
-        <h1 className="product__title title">COFFEE BLENDS</h1>
+        <h1 className="product__title title">COMBO SETS</h1>
      </div>
  )
 }
