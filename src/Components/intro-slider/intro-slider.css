@@ -3,6 +3,9 @@
     padding-top: 263px;
     padding-bottom: 150px;
     z-index: 10;
+    display: flex;
+    text-align: left;
+    padding-left: 20%;
 }
 
 .intro__title{

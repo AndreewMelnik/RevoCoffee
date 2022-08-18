@@ -8,7 +8,7 @@ import coffeeMachine from "../../img/png/coffeemachine.png";
 const Features = () => {
     return(
 
-<div class="coffee__wrap">
+<div class="coffee__wrap" id="coffee">
         <div class="coffee__text">
             <h1 class="coffee__subtitle subtitle">Your Personalized Coffee
             </h1>

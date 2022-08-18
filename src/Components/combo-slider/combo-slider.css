@@ -1,6 +1,6 @@
 .combo {
     padding-left: 100px;
-    padding-bottom: 128px;
+    padding-bottom: 0px;
  }
  .combo__text {
  }
@@ -57,3 +57,13 @@
  .combo__button {
  }
  
+ .footer {
+   font-style: italic;
+   padding: 18px 0 0 14px;
+   text-align: center;
+   height: 42px;
+   background-color: #EDF0F5;
+   color: #415167;
+   margin-top: 100px;
+   margin-bottom: 25px;
+ }

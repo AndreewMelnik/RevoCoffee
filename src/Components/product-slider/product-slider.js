@@ -29,7 +29,7 @@ export default class MultipleRows extends Component {
       dots:true,
     };
     return (
-      <div className="product">
+      <div className="product" id="coffeeblends">
         <ProductText/>
       <div>
         <Slider {...settings}>
@@ -37,31 +37,6 @@ export default class MultipleRows extends Component {
             <ProductCard key={card.id} {...card} />
           )
           )}
-          {/* <div>
-            <h3><ProductCard /></h3>
-          </div> */}
-          {/* <div>
-            <h3><ProductCard /></h3>
-          </div>
-          <div>
-            <h3><ProductCard /></h3>
-          </div> */}
-          {/* <div>
-            <h3><ProductCard /></h3>
-          </div> */}
-          {/* <div>
-            <h3><ProductCard /></h3>
-          </div>
-          <div>
-            <h3><ProductCard /></h3>
-          </div>
-          <div>
-            <h3><ProductCard /></h3>
-          </div>
-          <div>
-            <h3><ProductCard /></h3>
-          </div> */}
-          
         </Slider>
       </div>
       </div>

@@ -9,7 +9,7 @@ const IntroSlider = () => {
         <div className="wrapper">
           <div className="intro__text">
             <h1 className="intro__title">
-              YOUR PERSONALIZED COFEE
+              YOUR PERSONALIZED COFFEE
             </h1>
             <p className="intro__subtitle">
               Best quality of Vietnamese coffee

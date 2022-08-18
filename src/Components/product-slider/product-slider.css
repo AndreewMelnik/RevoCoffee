@@ -86,7 +86,9 @@
    color: #151d28;
 }
 
-.product__btn {}
+.product__btn {
+   width: 290px;
+}
 
 .buy {
    border: none;

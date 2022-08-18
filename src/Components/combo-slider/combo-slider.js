@@ -26,7 +26,7 @@ export default class ComboSlider extends Component {
             slidesToScroll: 2
       };
       return (
-        <div className="product">
+        <div className="combo" id="combosets">
           <ComboText/>
         <div>
           <Slider {...settings}>
@@ -36,6 +36,9 @@ export default class ComboSlider extends Component {
             )}
       </Slider>
       </div>
+      <footer class="footer">
+            © Revo Coffee Việt Nam - 2018
+      </footer>
       </div>
     );
   }
